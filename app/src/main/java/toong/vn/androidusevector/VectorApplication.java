@@ -12,6 +12,6 @@ public class VectorApplication extends Application{
     @Override
     public void onCreate() {
         super.onCreate();
-        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true); // enable it will make ResourceCompat work in API < 4.4
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
     }
 }
